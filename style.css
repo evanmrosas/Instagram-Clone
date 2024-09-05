@@ -28,7 +28,7 @@ input{
     font-family: sans-serif;
     font-size: small;
 }
-button{
+#login-button{
     width: 100%;
     padding: 8px;
     border-radius: 8px;
@@ -63,8 +63,8 @@ a{
     display: flex;
     gap: 10px;
 }
-#profile-pic{
-    height: 20px;
+#profile-pic-feed{
+    height: 30px;
     padding: 5px;
     border: 1px solid lightgray;
     border-radius: 50px;
@@ -86,7 +86,7 @@ p{
 #username, #more, .embolden{
     font-weight: 700;
 }
-.post{
+#post{
     height:500px;
     width: 250px;
 }
@@ -102,4 +102,81 @@ p{
 }
 .comment-section{
     color: grey;
+}
+/*account page*/
+.account-button{
+    width: 70px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#login-button-account{
+    color: white;
+    background-color: rgb(48, 141, 240);
+}
+#signup-button-account{
+    color:rgb(48, 141, 240);
+    background-color: white;
+}
+.account-header{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+#profile-pic-account{
+    height: 40px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+#username{
+    font-weight:100;
+    font-family: sans-serif;
+}
+.user-button{
+    font-family: sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+}
+.account-info{
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story{
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    border: 1px solid lightgray;
+}
+.follower-data{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.num-data{
+    font-weight: 600;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post{
+    width:106px;
+    height:106px;
+    border: 1px solid white;
 }

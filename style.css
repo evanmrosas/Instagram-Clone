@@ -8,7 +8,7 @@
    justify-content: center;
    height: 80vh;
 }
-#logo{
+#logo-landing{
     font-family: Great Vibes;
     margin-bottom: 50px;
     font-size: xxx-large;
@@ -37,4 +37,69 @@ button{
     color: white;
     background-color: rgb(48, 141, 240);
     font-family: sans-serif;
+}
+/*Feed Page*/
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    height: 20px;
+}
+#logo-feed{
+    font-family: Great Vibes;
+}
+.links-feed{
+    display: flex;
+    gap: 10px;
+}
+#profile-pic{
+    height: 20px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    font-size: small;
+    font-family: sans-serif;
+}
+#username, #more, .embolden{
+    font-weight: 700;
+}
+.post{
+    height:500px;
+    width: 250px;
+}
+.image-feed{
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.post-options{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-section{
+    color: grey;
 }
